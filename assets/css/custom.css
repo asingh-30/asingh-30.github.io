@@ -654,6 +654,39 @@ h2.section-title::after {
     font-size: 1.2rem;
 }
 
+/* --- NEW STYLES FOR LOCATIONS --- */
+
+/* Timeline Location Styling (Under the job title) */
+.timeline-location {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #e2e8f0; /* Off-white color */
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Experience Card Location Styling (Top Right Corner) */
+.job-location {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #90a4ef; /* Accent color */
+    margin-bottom: 0.5rem;
+    
+    /* Position to the right corner */
+    float: right;
+    margin-top: -0.2rem; 
+}
+
+/* Ensure the remaining content correctly clears the float */
+.experience-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --- END NEW STYLES FOR LOCATIONS --- */
+
 .skill-icons {
     display: flex;
     flex-wrap: wrap;
