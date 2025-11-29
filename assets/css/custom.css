@@ -47,12 +47,10 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    /* [Your existing styles here] */
+    cursor: pointer;
+    text-decoration: none; /* Removes the default link underline */
+    color: inherit;      /* Ensures it keeps the color defined for the header/logo */
 }
 
 header nav {
